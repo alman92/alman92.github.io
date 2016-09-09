@@ -1,0 +1,79 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+@import url(https://fonts.googleapis.com/css?family=EB+Garamond);
+@import url(https://fonts.googleapis.com/css?family=GFS+Didot&subset=greek);
+
+html {
+  background-color: black;
+}
+
+.container {
+  background: url(http://3.bp.blogspot.com/-ORF9d-1ON80/T7i9jkqSCkI/AAAAAAAAJPQ/eCLANsehw0s/s1920/abstract-wallpaper-33.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.header {
+  padding-top:10px;
+  padding-left:75px;
+  text-align: center;
+  color: white;
+  position: fixed;
+
+}
+
+h1{
+  font-family: 'EB Garamond', serif;
+  font-size: 40px;
+  text-shadow: 3px 3px 8px black;
+  margin: 0;
+}
+
+a{
+  color: white;
+}
+
+h2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  margin: 0;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+.headshot{
+  max-width: 200px;
+  margin: 20px;
+  border-radius: 50%;
+  border: 3px solid white;
+  box-shadow: 3px 3px 8px black;
+}
+
+.content{
+  color: white;
+  font-family: "GFS Didot", serif;
+  width: 60%;
+  background-color: rgba(0,0,0,.5);
+  padding: 20px;
+  border-radius: 10px;
+  float:right;
+  margin: 30px;
+}
+
+.section-title{
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.dates{
+  float: right;
+}
+
+.position{
+  font-style: italic;
+}
