@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css?family=EB+Garamond);
+
+html{
+  background: url(http://3.bp.blogspot.com/-ORF9d-1ON80/T7i9jkqSCkI/AAAAAAAAJPQ/eCLANsehw0s/s1920/abstract-wallpaper-33.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+header{
+  background-color: #0341ad;
+  height: 50px;
+  box-shadow: 3px 3px 8px black;
+}
+
+#wrapper{
+  margin-left:auto;
+  margin-right:auto;
+  width:960px;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  width: 100%;
+}
+
+a{
+  text-align: center;
+  display: block;
+  padding-top: 10px;
+  font-weight: bold;
+  font-family: 'EB Garamond', serif;
+  font-size: 20px
+  transition: all 0.3s ease-in;
+  text-decoration:none;
+}
+
+a:hover{
+	-webkit-stroke-width: 5.3px;
+  -webkit-stroke-color: #FFFFFF;
+  -webkit-fill-color: #00FFFF;
+  text-shadow: 1px 0px 20px black;
+}
+
+a:link{
+  color: white;
+}
+
+a:visited{
+  color: white;
+}
+
+main {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 160px;
+}
+
+.headshot{
+  max-width: 200px;
+  margin: 20px;
+  border-radius: 50%;
+  border: 3px solid white;
+  box-shadow: 3px 3px 8px black;
+  display: flex;
+  order: 1;
+}
+
+.text{
+  color: rgb(255,255,255);
+  order: 2;
+  font-family: 'EB Garamond', serif;
+  text-shadow: 3px 3px 8px black;
+}
